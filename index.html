@@ -1,0 +1,300 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+
+    <title>Beauty Shop</title>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-sm navbar-light alert-warning">
+	<div class="container-fluid">
+		<a class="navbar-brand text-dark" href="javascript:void(0)">B-SHOP</a>
+		<button class="navbar-toggler" type="button" data-bs-spy="scroll" data-bs-offset="50" data-bs-toggle="collapse" data-bs-target="#mynavbar" >
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="mynavbar">
+			<ul class="navbar-nav me-auto">
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#ourproduct">OurProduct</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#favorite">Favorite</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#ourblog">OurBlog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#sale">BigSale</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#formorder">FormOrder</a>
+				</li>
+			</ul>
+			<form class="d-flex">
+				<input class="form-control me-2" type="text" placeholder="Search">
+				<button class="btn btn-warning" type="button">Search</button>
+			</form>
+		</div>
+	</div>
+  </nav>
+ 
+ 
+  <div class="container p-5 my-5 bg-warning text-black text-center" id="home">
+  <div class="spinner-border spinner-border-sm"></div>
+  <div class="spinner-grow spinner-grow-sm"></div>
+	<h1>Hello, Welcome to Beauty Shop</h1>
+	<p>Website ini menyediakan berbagai macam beauty product, Find your product to order.</p>
+	<p>HAPPY SHOPPING!!</p>
+  </div>
+  
+  
+  <div class="container mt-3">
+	<div id="ourproduct"></div>
+	<h2>Our Product</h2>
+	<p>Berikut ini beberapa produk yang tersedia pada laman website ini :</p>
+	<table class="table">
+		<thead>
+			<tr class="table-warning">
+				<th>Nama Produk</th>
+				<th>Harga</th>
+				<th>Stok Barang</th>
+				<th>Diskon</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="table-light">
+				<td>Eyebrow Pencil</td>
+				<td>Rp 100.000</td>
+				<td>12 pcs</td>
+				<td>20%</td>
+			</tr>
+			<tr class="table-warning">
+				<td>Lip Cream</td>
+				<td>Rp 120.000</td>
+				<td>20 pcs</td>
+				<td>15%</td>
+			</tr>
+			<tr class="table-light">
+				<td>Eyeshadow</td>
+				<td>Rp 250.000</td>
+				<td>6 pcs</td>
+				<td>20%</td>
+			</tr>
+			<tr class="table-warning">
+				<td>Nail Polish</td>
+				<td>Rp 80.000</td>
+				<td>8 pcs</td>
+				<td>5%</td>
+			</tr>
+			<tr class="table-light">
+				<td>Cushion</td>
+				<td>Rp 180.000</td>
+				<td>11 pcs</td>
+				<td>30%</td>
+			</tr>
+			<tr class="table-warning">
+				<td>Foundation</td>
+				<td>Rp 200.000</td>
+				<td>16 pcs</td>
+				<td>25%</td>
+			</tr>
+			<tr class="table-light">
+				<td>Contoure</td>
+				<td>Rp 125.000</td>
+				<td>11 pcs</td>
+				<td>20%</td>
+			</tr>
+			<tr class="table-warning">
+				<td>Blush On</td>
+				<td>Rp 75.000</td>
+				<td>7 pcs</td>
+				<td>15%</td>
+			</tr>
+			<tr class="table-light">
+				<td>Compact Powder</td>
+				<td>Rp 160.000</td>
+				<td>15 pcs</td>
+				<td>25%</td>
+			</tr>
+			<tr class="table-warning">
+				<td>Eye Liner</td>
+				<td>Rp 90.000</td>
+				<td>9 pcs</td>
+				<td>10%</td>
+			</tr>
+			<tr class="table-light">
+				<td>Concealer</td>
+				<td>Rp 140.000</td>
+				<td>10 pcs</td>
+				<td>20%</td>
+			</tr>
+			<tr class="table-warning">
+				<td>Lip Essence</td>
+				<td>Rp 120.000</td>
+				<td>4 pcs</td>
+				<td>5%</td>
+			</tr>
+		</tbody>
+	</table
+  </div>
+  
+ 
+  <div class="container-fluid my-5 bg-mute">
+  <div id="favorite"></div>
+  	<h2>Favorite Product</h2>
+	<p>Berikut ini tiga produk paling diminati bulan ini :</p>
+		<div class="mb-3 mt-3">
+			<h6>Lip Essence</h6>
+				<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" Style="width:95%"></div>
+				</div>
+		</div>
+		<div class="mb-3 mt-3">
+			<h6>Eyeshadow</h6>
+				<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" Style="width:90%"></div>
+				</div>
+		</div>
+		<div class="mb-3 mt-3">
+			<h6>Blush On</h6>
+				<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" Style="width:85%"></div>
+				</div>
+		</div>
+  </div>
+  
+  
+  <div class="container-fluid my-5 bg-mute">
+	<div id="ourblog"></div>
+  	<h2>Our Blog</h2>
+	<p>Anda dapat membaca beberapa blog di bawah ini untuk menambah pengetahuan mengenai beuaty product.</p>
+	<div class="row">
+		<div class="col" style="margin-bottom:24px">
+		<div class="card border-warning" style="width:340px">
+			<img class="card-img-top" src="images/gambar12.jpeg" alt="Card image" style="width:100%">
+			<div class="card-body">
+				<h5 class="card-title">Budget Friendly Alternatives<br>to Popular Cosmetic Products</h5>
+				<p class="card-text">"Maret 04, 2022 / Makeup"</p>
+				<a href="#" class="btn btn-warning">Read More</a>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col" style="margin-bottom:24px">
+		<div class="card border-warning" style="width:340px">
+			<img class="card-img-top" src="images/gambar13.png" alt="Card image" style="width:100%">
+			<div class="card-body">
+				<h5 class="card-title">Share Your Favorite Maskaras<br>and Rank According to Performance</h5>
+				<p class="card-text">"Maret 04, 2022 / Maskara"</p>
+				<a href="#" class="btn btn-warning">Read More</a>
+			</div>
+		</div>
+		</div>
+		
+		<div class="col" style="margin-bottom:24px">
+		<div class="card border-warning" style="width:340px">
+			<img class="card-img-top" src="images/gambar14.jpeg" alt="Card image" style="width:100%">
+			<div class="card-body">
+				<h5 class="card-title">Your 5 Minute Makeup Refresh <br>Routine to go from Day to night</h5>
+				<p class="card-text">"Maret 04, 2022 / Makeup"</p>
+				<a href="#" class="btn btn-warning">Read More</a>
+			</div>
+		</div>
+		</div>
+	</div>
+  </div>
+
+  
+  <div class="container mt-3" style="margin-bottom:68px">
+  <div id="sale"></div>
+	<h3>Big Sale</h3>
+	<p>Dapatkan Lipstik dengan harga promo terbaru. Hanya bulan ini, stok terbatas!</p>
+	<div class="toast show" style="width:100%">
+		<div class="toast-header">
+			<strong class="me-auto">Promo 1 Package Offer's</strong>
+			<button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+		</div>
+		<div class="toast-body" style="width:100%">
+			<div class="row">
+				<div class="col">
+				<img src="images/gambar6.png" style="width:480px">
+				</div>
+				<div class="col" Style="margin-top:48px">
+				<p Style="margin-right:80px" >Beli satu set lipstik terlengkap dengan harga terjangkau. Promo hanya berlaku hingga 31 Maret 2022. Checkout sekarang sebelum kehabisan.</p>
+				<button type="button" class="btn btn-warning">Tersedia  <span class="badge bg-danger">4</span></button>
+				<a href="#formorder" class="btn btn-warning">Order Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+  
+  
+  <div class="container mt-3" style="margin-bottom:64px">
+    <div id="formorder"></div>
+	<h2>Form Order Product</h2>
+		<div class="mb-3 mt-3">
+			<label for="nama">Nama:</label>
+			<input type="nama" class="form-control" id="nama" placeholder="Enter name" name="nama">
+		</div>
+		<div class="mb-3">
+			<label for="notelp">No Telepon:</label>
+			<input type="notelp" class="form-control" id="notelp" placeholder="Enter phone number" name="notelp">
+		</div>
+		<div class="mb-3">
+			<label for="alamat">Alamat:</label>
+			<input type="alamat" class="form-control" id="alamat" placeholder="Enter address" name="alamat">
+		</div>
+		<div class="mb-3">
+			<label for="produk">Nama Produk:</label>
+			<input type="produk" class="form-control" id="produk" placeholder="Enter nama produk" name="produk">
+		</div>
+		<div class="mb-3">
+			<label for="jumlah">Jumlah Barang:</label>
+			<input type="jumlah" class="form-control" id="jumlah" placeholder="Enter jumlah yang dibeli" name="jumlah">
+		</div>
+		<div class="form-check mb-3">
+			<label class="form-check-label">
+			<input class="form-check-input" type="checkbox" name="remember"> Remember me
+			</label>
+		</div>
+		<button type="submit" class="btn btn-warning">Order</button>
+  </div>
+	
+	
+  <div class="container mt-3" style="margin-bottom:28px">
+	<ul class="pagination justify-content-end" >
+		<li class="page-item"><a class="page-link text-black border-warning" href="#sale" data-bs-toggle="tooltip" data-bs-placement="previous" title="Previous">Previous</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#home" data-bs-toggle="tooltip" data-bs-placement="satu" title="Home">1</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#ourproduct" data-bs-toggle="tooltip" data-bs-placement="dua" title="Our Product">2</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#favorite" data-bs-toggle="tooltip" data-bs-placement="tiga" title="Favorite Product">3</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#ourblog" data-bs-toggle="tooltip" data-bs-placement="empat" title="Our Blog">4</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#sale" data-bs-toggle="tooltip" data-bs-placement="lima" title="Big Sale">5</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#formorder" data-bs-toggle="tooltip" data-bs-placement="enam" title="Form Order">6</a></li>
+		<li class="page-item"><a class="page-link text-black border-warning" href="#" data-bs-toggle="tooltip" data-bs-placement="Next" title="Next">Next</a></li>
+	</ul>
+  </div>
+  
+  
+  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap/js/bundle.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
